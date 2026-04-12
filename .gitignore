@@ -1,0 +1,38 @@
+#Python cache
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+#virtual env
+venv/
+.env/
+.venv/
+
+#Hydra outputs
+outputs/
+multirun/
+
+#logs
+logs/
+*.log
+
+#checkpoints / model weights
+checkpoints/
+*.pt
+.pth
+
+#data artifacts
+/data/
+!/data/.gitkeep
+/datasets/
+
+#system files
+.DS_Store
+Thumbs.db
+
+#editor
+.vscode/
+
+#notebook cache
+.ipynb_checkpoints/
