@@ -45,6 +45,10 @@ def process_file(
     if not isinstance(data, list):
         raise ValueError(f"Expected list JSON: {input_path}")
 
+    if input_path.name == "TL_내과_통합.json":
+        data = [record for record in data if record.get("q_type") == 3]
+        print(f"[{input_path.name}] filtered by q_type=3 -> {len(data)} records")
+
     documents: list[dict[str, Any]] = []
     total = len(data) if max_records is None else min(len(data), max_records)
 
@@ -87,7 +91,6 @@ def parse_args() -> argparse.Namespace:
         nargs="+",
         default=[
             "data/raw/TL_내과_통합.json",
-            "data/raw/VL_내과_통합.json",
         ],
         help="입력 JSON 파일 목록",
     )
