@@ -8,7 +8,12 @@ from typing import Any
 
 from medical_extractor import MedicalEntityExtractor
 from ollama_client import OllamaClient
-from tqdm import tqdm
+
+try:
+    from tqdm import tqdm
+except ImportError:
+    def tqdm(iterable, **kwargs):
+        return iterable
 
 
 def _to_document(record: dict[str, Any], extracted: dict[str, list[str]]) -> dict[str, Any]:
@@ -25,12 +30,24 @@ def _to_document(record: dict[str, Any], extracted: dict[str, list[str]]) -> dic
             "q_type": record.get("q_type"),
             "source_folder": source_folder,
             "source_file": source_file,
-            "질병명": extracted["질병명"],
-            "증상": extracted["증상"],
-            "처치 방법": extracted["처치 방법"],
-            "환자 특성": extracted["환자 특성"],
+            "질병명": extracted.get("질병명", []),
+            "증상": extracted.get("증상", []),
+            "처치 방법": extracted.get("처치 방법", []),
+            "환자 특성": extracted.get("환자 특성", []),
         },
     }
+
+
+def _save_json(path: Path, data: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8-sig") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def _append_error_jsonl(path: Path, row: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
 def process_file(
@@ -38,8 +55,10 @@ def process_file(
     output_path: Path,
     extractor: MedicalEntityExtractor,
     max_records: int | None = None,
+    checkpoint_every: int = 50,
 ) -> None:
     file_start = time.perf_counter()
+
     with input_path.open("r", encoding="utf-8-sig") as f:
         data = json.load(f)
 
@@ -50,45 +69,101 @@ def process_file(
         data = [record for record in data if record.get("q_type") == 3]
         print(f"[{input_path.name}] filtered by q_type=3 -> {len(data)} records")
 
-    documents: list[dict[str, Any]] = []
     total = len(data) if max_records is None else min(len(data), max_records)
+    records = data[:total]
 
-    for idx, record in enumerate(
-        tqdm(
-            data[:total],
-            total=total,
-            desc=f"Processing {input_path.name}",
-            unit="req",
-        ),
-        start=1,
-    ):
-        question = str(record.get("question", ""))
-        answer = str(record.get("answer", ""))
+    documents: list[dict[str, Any]] = []
+    failed_count = 0
 
-        req_start = time.perf_counter()
-        extracted = extractor.extract(question=question, answer=answer)
-        req_elapsed = time.perf_counter() - req_start
+    partial_path = output_path.with_name(f"{output_path.stem}.partial.json")
+    errors_path = output_path.with_name(f"{output_path.stem}_errors.jsonl")
+    # Start fresh for this run.
+    if errors_path.exists():
+        errors_path.unlink()
 
-        doc = _to_document(record=record, extracted=extracted)
-        documents.append(doc)
+    def save_checkpoint(processed_idx: int) -> None:
+        _save_json(partial_path, documents)
+        print(
+            f"Checkpoint saved: {partial_path} | "
+            f"processed={processed_idx}/{total}, success={len(documents)}, failed={failed_count}"
+        )
 
-        if idx % 100 == 0 or idx == total:
-            print(
-                f"[{input_path.name}] processed {idx}/{total} | "
-                f"time per request: {req_elapsed:.2f}s"
-            )
+    fatal_error: Exception | None = None
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8-sig") as f:
-        json.dump(documents, f, ensure_ascii=False, indent=2)
+    try:
+        for idx, record in enumerate(
+            tqdm(records, total=total, desc=f"Processing {input_path.name}", unit="req"),
+            start=1,
+        ):
+            question = str(record.get("question", ""))
+            answer = str(record.get("answer", ""))
 
-    total_elapsed = time.perf_counter() - file_start
-    avg_per_request = total_elapsed / total if total else 0.0
-    print(f"Saved: {output_path}")
-    print(
-        f"[{input_path.name}] total elapsed time: {total_elapsed:.2f}s | "
-        f"time per request(avg): {avg_per_request:.2f}s"
-    )
+            req_start = time.perf_counter()
+            try:
+                extracted = extractor.extract(question=question, answer=answer)
+                doc = _to_document(record=record, extracted=extracted)
+                documents.append(doc)
+            except json.JSONDecodeError as exc:
+                failed_count += 1
+                _append_error_jsonl(
+                    errors_path,
+                    {
+                        "index": idx,
+                        "qa_id": record.get("qa_id"),
+                        "error_type": "JSONDecodeError",
+                        "error": str(exc),
+                        "question": question[:300],
+                        "answer": answer[:300],
+                    },
+                )
+            except Exception as exc:
+                failed_count += 1
+                _append_error_jsonl(
+                    errors_path,
+                    {
+                        "index": idx,
+                        "qa_id": record.get("qa_id"),
+                        "error_type": exc.__class__.__name__,
+                        "error": str(exc),
+                        "question": question[:300],
+                        "answer": answer[:300],
+                    },
+                )
+
+            req_elapsed = time.perf_counter() - req_start
+            if idx % 100 == 0 or idx == total:
+                print(
+                    f"[{input_path.name}] processed {idx}/{total} | "
+                    f"time per request: {req_elapsed:.2f}s | "
+                    f"success={len(documents)} failed={failed_count}"
+                )
+
+            if checkpoint_every > 0 and idx % checkpoint_every == 0:
+                save_checkpoint(idx)
+
+    except KeyboardInterrupt as exc:
+        fatal_error = exc
+    except Exception as exc:
+        fatal_error = exc
+    finally:
+        # Always keep partial output so completed work is not lost.
+        save_checkpoint(total if fatal_error is None else len(documents) + failed_count)
+
+    if fatal_error is None:
+        _save_json(output_path, documents)
+        total_elapsed = time.perf_counter() - file_start
+        avg_per_request = total_elapsed / total if total else 0.0
+        print(f"Saved final output: {output_path}")
+        print(
+            f"[{input_path.name}] total elapsed time: {total_elapsed:.2f}s | "
+            f"time per request(avg): {avg_per_request:.2f}s | "
+            f"success={len(documents)} failed={failed_count}"
+        )
+    else:
+        print(
+            f"[{input_path.name}] stopped by fatal error: {fatal_error}. "
+            f"Partial output is available at: {partial_path}"
+        )
 
 
 def parse_args() -> argparse.Namespace:
@@ -98,9 +173,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--inputs",
         nargs="+",
-        default=[
-            "data/raw/TL_내과_통합.json",
-        ],
+        default=["data/raw/TL_내과_통합.json"],
         help="입력 JSON 파일 목록",
     )
     parser.add_argument(
@@ -111,10 +184,16 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model", default="qwen2.5:7b-instruct", help="Ollama 모델명")
     parser.add_argument("--ollama-url", default="http://localhost:11434", help="Ollama base URL")
     parser.add_argument("--timeout-seconds", type=int, default=300, help="HTTP timeout(초)")
-    parser.add_argument("--keep-alive", default="30m", help="Ollama keep_alive 값")
+    parser.add_argument("--keep-alive", default="90m", help="Ollama keep_alive 값")
     parser.add_argument("--temperature", type=float, default=0.0, help="생성 온도")
     parser.add_argument("--num-ctx", type=int, default=8192, help="컨텍스트 길이")
     parser.add_argument("--max-records", type=int, default=None, help="샘플 처리 개수 제한")
+    parser.add_argument(
+        "--checkpoint-every",
+        type=int,
+        default=50,
+        help="중간 저장 주기(레코드 수). 0 이하면 중간 저장 비활성화",
+    )
     return parser.parse_args()
 
 
@@ -149,6 +228,7 @@ def main() -> None:
             output_path=output_path,
             extractor=extractor,
             max_records=args.max_records,
+            checkpoint_every=args.checkpoint_every,
         )
 
 
