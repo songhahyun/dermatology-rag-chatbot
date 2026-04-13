@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import time
 from pathlib import Path
 from typing import Any
 
@@ -27,10 +28,6 @@ def _to_document(record: dict[str, Any], extracted: dict[str, list[str]]) -> dic
             "증상": extracted["증상"],
             "처치 방법": extracted["처치 방법"],
         },
-        # 원본 포맷 보존: 입력 레코드를 변경하지 않고 그대로 포함
-        "original": record,
-        # 후처리 파이프라인에서 바로 쓰기 쉽도록 별도 필드도 제공
-        "extracted": extracted,
     }
 
 
@@ -40,6 +37,7 @@ def process_file(
     extractor: MedicalEntityExtractor,
     max_records: int | None = None,
 ) -> None:
+    file_start = time.perf_counter()
     with input_path.open("r", encoding="utf-8-sig") as f:
         data = json.load(f)
 
@@ -53,17 +51,28 @@ def process_file(
         question = str(record.get("question", ""))
         answer = str(record.get("answer", ""))
 
+        req_start = time.perf_counter()
         extracted = extractor.extract(question=question, answer=answer)
+        req_elapsed = time.perf_counter() - req_start
         doc = _to_document(record=record, extracted=extracted)
         documents.append(doc)
 
         if idx % 100 == 0 or idx == total:
-            print(f"[{input_path.name}] processed {idx}/{total}")
+            print(
+                f"[{input_path.name}] processed {idx}/{total} | "
+                f"time per request: {req_elapsed:.2f}s"
+            )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8-sig") as f:
         json.dump(documents, f, ensure_ascii=False, indent=2)
+    total_elapsed = time.perf_counter() - file_start
+    avg_per_request = total_elapsed / total if total else 0.0
     print(f"Saved: {output_path}")
+    print(
+        f"[{input_path.name}] total elapsed time: {total_elapsed:.2f}s | "
+        f"time per request(avg): {avg_per_request:.2f}s"
+    )
 
 
 def parse_args() -> argparse.Namespace:
