@@ -22,9 +22,24 @@ def install_ollama_if_requested(install_ollama: bool) -> None:
     run_cmd(["bash", "-lc", "curl -fsSL https://ollama.com/install.sh | sh"])
 
 
+def install_python_deps_if_requested(install_python_deps: bool) -> None:
+    if not install_python_deps:
+        return
+    # preprocess_for_chroma.py uses tqdm.
+    run_cmd([sys.executable, "-m", "pip", "install", "-q", "tqdm"])
+
+
+def normalize_base_url(base_url: str) -> str:
+    url = base_url.rstrip("/")
+    if url.endswith("/api"):
+        url = url[:-4]
+    if url.endswith("/v1"):
+        url = url[:-3]
+    return url
+
+
 def start_ollama_server(base_url: str) -> subprocess.Popen[bytes]:
     env = os.environ.copy()
-    # Default Ollama listen address in Colab.
     env.setdefault("OLLAMA_HOST", "127.0.0.1:11434")
 
     proc = subprocess.Popen(
@@ -39,7 +54,7 @@ def start_ollama_server(base_url: str) -> subprocess.Popen[bytes]:
 
 def wait_until_ollama_ready(base_url: str, timeout_seconds: int = 120) -> None:
     deadline = time.time() + timeout_seconds
-    url = f"{base_url.rstrip('/')}/api/tags"
+    url = f"{normalize_base_url(base_url)}/api/tags"
     while time.time() < deadline:
         try:
             with urllib.request.urlopen(url, timeout=3) as resp:
@@ -58,7 +73,7 @@ def ollama_pull(model: str) -> None:
 def ollama_warmup(model: str, base_url: str, keep_alive: str, num_ctx: int) -> None:
     payload = {
         "model": model,
-        "prompt": '{"질병명":[],"증상":[],"처치 방법":[]}',
+        "prompt": '{"질병명":[],"증상":[],"처치 방법":[],"환자 특성":[]}',
         "stream": False,
         "keep_alive": keep_alive,
         "format": "json",
@@ -68,7 +83,7 @@ def ollama_warmup(model: str, base_url: str, keep_alive: str, num_ctx: int) -> N
         },
     }
     request = urllib.request.Request(
-        url=f"{base_url.rstrip('/')}/api/generate",
+        url=f"{normalize_base_url(base_url)}/api/generate",
         data=json.dumps(payload).encode("utf-8"),
         headers={"Content-Type": "application/json"},
         method="POST",
@@ -86,6 +101,7 @@ def run_preprocess(
     timeout_seconds: int,
     num_ctx: int,
     max_records: int | None,
+    inputs: list[str] | None,
 ) -> None:
     cmd = [
         sys.executable,
@@ -93,7 +109,7 @@ def run_preprocess(
         "--model",
         model,
         "--ollama-url",
-        base_url,
+        normalize_base_url(base_url),
         "--keep-alive",
         keep_alive,
         "--timeout-seconds",
@@ -103,13 +119,15 @@ def run_preprocess(
     ]
     if max_records is not None:
         cmd.extend(["--max-records", str(max_records)])
+    if inputs:
+        cmd.extend(["--inputs", *inputs])
 
     run_cmd(cmd, cwd=repo_dir)
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Colab에서 Ollama + 전처리 파이프라인을 한 번에 실행합니다."
+        description="Colab에서 Ollama + preprocess_for_chroma.py를 실행합니다."
     )
     parser.add_argument(
         "--repo-dir",
@@ -119,14 +137,25 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--install-ollama",
         action="store_true",
-        help="Ollama를 설치합니다(Colab 첫 실행 시 사용).",
+        help="Colab에서 Ollama를 설치합니다.",
+    )
+    parser.add_argument(
+        "--install-python-deps",
+        action="store_true",
+        help="Python 의존성(tqdm)을 설치합니다.",
     )
     parser.add_argument("--model", default="qwen2.5:7b-instruct", help="Ollama 모델명")
     parser.add_argument("--ollama-url", default="http://127.0.0.1:11434", help="Ollama base URL")
-    parser.add_argument("--keep-alive", default="30m", help="모델 keep_alive")
-    parser.add_argument("--timeout-seconds", type=int, default=600, help="요청 타임아웃")
-    parser.add_argument("--num-ctx", type=int, default=4096, help="컨텍스트 길이")
+    parser.add_argument("--keep-alive", default="90m", help="모델 keep_alive (예: 30m, 90m, 2h)")
+    parser.add_argument("--timeout-seconds", type=int, default=600, help="요청 타임아웃(초)")
+    parser.add_argument("--num-ctx", type=int, default=8192, help="컨텍스트 길이")
     parser.add_argument("--max-records", type=int, default=None, help="샘플 처리 개수 제한")
+    parser.add_argument(
+        "--inputs",
+        nargs="+",
+        default=["data/raw/TL_내과_통합.json"],
+        help="preprocess 입력 JSON 파일 목록",
+    )
     parser.add_argument("--skip-pull", action="store_true", help="모델 pull 단계를 건너뜁니다.")
     return parser.parse_args()
 
@@ -138,10 +167,13 @@ def main() -> None:
         raise FileNotFoundError(f"repo dir not found: {repo_dir}")
 
     install_ollama_if_requested(args.install_ollama)
+    install_python_deps_if_requested(args.install_python_deps)
+
     _server_proc = start_ollama_server(base_url=args.ollama_url)
 
     if not args.skip_pull:
         ollama_pull(args.model)
+
     ollama_warmup(
         model=args.model,
         base_url=args.ollama_url,
@@ -157,9 +189,9 @@ def main() -> None:
         timeout_seconds=args.timeout_seconds,
         num_ctx=args.num_ctx,
         max_records=args.max_records,
+        inputs=args.inputs,
     )
 
 
 if __name__ == "__main__":
     main()
-
