@@ -27,6 +27,7 @@ def _to_document(record: dict[str, Any], extracted: dict[str, list[str]]) -> dic
             "질병명": extracted["질병명"],
             "증상": extracted["증상"],
             "처치 방법": extracted["처치 방법"],
+            "환자 특성": extracted["환자 특성"],
         },
     }
 
@@ -54,6 +55,7 @@ def process_file(
         req_start = time.perf_counter()
         extracted = extractor.extract(question=question, answer=answer)
         req_elapsed = time.perf_counter() - req_start
+
         doc = _to_document(record=record, extracted=extracted)
         documents.append(doc)
 
@@ -66,6 +68,7 @@ def process_file(
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8-sig") as f:
         json.dump(documents, f, ensure_ascii=False, indent=2)
+
     total_elapsed = time.perf_counter() - file_start
     avg_per_request = total_elapsed / total if total else 0.0
     print(f"Saved: {output_path}")
