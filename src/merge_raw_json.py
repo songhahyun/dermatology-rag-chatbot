@@ -7,7 +7,7 @@ raw_root = project_root / "data" / "raw"
 
 # "\ud1b5\ud569" is "통합". Keep it escaped to avoid encoding issues.
 MERGED_SUFFIX = "\ud1b5\ud569"
-TARGET_PREFIXES = ("VL_", "TL_")
+TARGET_PREFIXES = ("VL_내과", "TL_내과")
 
 
 def merge_folder(folder: Path) -> tuple[int, int, Path]:

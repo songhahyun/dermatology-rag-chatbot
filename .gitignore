@@ -23,9 +23,9 @@ checkpoints/
 .pth
 
 #data artifacts
-# /data/
-# !/data/.gitkeep
-# /datasets/
+/data/
+!/data/.gitkeep
+/datasets/
 
 #system files
 .DS_Store
