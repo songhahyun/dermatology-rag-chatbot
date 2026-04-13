@@ -1,0 +1,8 @@
+﻿{
+    "c_id": "1400_1",
+    "domain": 2,
+    "source": 1,
+    "source_spec": "guide_kr",
+    "creation_year": "null",
+    "content": "소아 감염에 대한 연구는 핵심 질문 4개를 포함하며, 추가적인 호흡 및 중환자 치료 관련 6개, 진단 관련 4개 질문은 별도로 확정 후 게시될 예정입니다. 2021년 기준으로 CQ 번호, 대분류, 소분류, 핵심 질문, 그리고 Population, Intervention, Comparator, 검색 키워드 등이 정리되어 있습니다. 1. CQ_P1: 소아 다기관 염증 증후군 환자에서 정맥 글로불린(IVIG)과 스테로이드 병용 투여의 임상적 효과를 평가합니다. Population: 소아 다기관 염증 증후군(PIMS-TS) 환자 Intervention: 정맥 글로불린(IVIG)과 스테로이드 병용 Comparator: 정맥 글로불린 단독 검색 키워드: COVID-19, system inflammatory disease, pediatric, intravenous immunoglobulin, corticosteroid 등 2. CQ_P2: 소아 다기관 염증 증후군 환자에서 스테로이드 단독 투여의 임상적 효과를 평가합니다. Population: 소아 다기관 염증 증후군 환자 Intervention: 스테로이드 단독 투여 검색 키워드: corticosteroid, steroid, glucosteroid, dexamethasone, prednisone, hydrocortisone, methylprednisolone 등 3. CQ_P3: 소아 다기관 염증 증후군 환자에서 기타 면역조절제(인터루킨-1, 인터루킨-6, anti-TNF 등)의 임상적 효과를 평가합니다. Population: 소아 다기관 염증 증후군 환자 Intervention: 기타 면역조절제(Anakinra, Infliximab, Tocilizumab 등) 검색 키워드: interleukin-1 inhibitor, IL-1 inhibitor, interleukin-6 inhibitor, IL-6 inhibitor, convalescent plasma 등 4. CQ_P4: 소아 다기관 염증 증후군 환자에서 아스피린의 적절한 투여 방법을 평가합니다. Population: 소아 다기관 염증 증후군 환자 Intervention: 아스피린 및 항혈전제 검색 키워드: aspirin, antithrombotic agents, fibrinolytic agents, thrombolytic agents 등 참고 사항으로, 제시된 핵심 질문과 키워드를 기반으로 검색 전략이 진행되며, 검색 시점은 2020년 3월부터 시작됩니다. 검색 키워드는 자연어와 통제어(MeSH, Emtree)를 포함하며, 현장에서 많이 사용되는 용어를 최대한 반영하도록 요청되었습니다."
+}
