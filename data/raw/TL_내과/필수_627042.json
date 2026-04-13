@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627042,
+    "domain": 17,
+    "q_type": 1,
+    "question": "43세 남성이 HIV 감염으로 진단받고 항레트로바이러스 치료를 시작하기 위해 내원하였다. 과거에 항레트로바이러스 치료를 받은 적이 없는 환자에게 하루 한 번 복용하는 고정 용량 복합제인 Emtricitabine/Rilpivirine/Tenofovir를 처방하기로 결정하였다. 이 약물의 작용 기전 중 옳은 것은 무엇인가?\n\n1) Emtricitabine은 HIV-1의 역전사효소를 비경쟁적으로 억제한다.  \n2) Rilpivirine은 deoxycytidine 5'-triphosphate와 경쟁하여 DNA 사슬의 연장을 중단시킨다.  \n3) Tenofovir diphosphate는 deoxyadenosine 5′-triphosphate와 경쟁하여 DNA 사슬의 연장을 중단시킨다.  \n4) Emtricitabine 5'-triphosphate는 인간 세포의 DNA 중합효소 α, β, ε에 강력한 억제 효과를 가진다.  \n5) Rilpivirine은 HIV-1의 역전사효소에 비경쟁적으로 결합하여 억제한다.",
+    "answer": "3) Tenofovir diphosphate는 deoxyadenosine 5′-triphosphate와 경쟁하여 DNA 사슬의 연장을 중단시킨다."
+}

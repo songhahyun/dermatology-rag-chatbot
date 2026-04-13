@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 624952,
+    "domain": 17,
+    "q_type": 3,
+    "question": "60세 남성이 발열과 기침을 주소로 내원하였다. 환자는 요양원에서 생활하고 있으며, 과거력으로는 고혈압이 있다. 혈액검사 결과 백혈구 수치가 상승하였고, 흉부 X-ray에서 우측 하엽에 폐렴 소견이 보였다. 객담 배양 검사에서 Pseudomonas aeruginosa가 검출되었다. 이 환자에게 적절한 항생제를 선택하고, 그 선택의 근거를 설명하시오.",
+    "answer": "이 환자에게 적절한 항생제는 Piperacillin-tazobactam이다. Piperacillin-tazobactam은 Pseudomonas aeruginosa를 포함한 다양한 그람 음성균에 대해 효과적인 항균 작용을 가지며, 특히 중증 감염이나 병원 내 감염에서 자주 사용된다. 환자는 요양원에서 생활하고 있어 병원 내 감염의 가능성이 높고, 객담 배양 검사에서 Pseudomonas aeruginosa가 검출되었으므로 이 항생제가 적합하다."
+}

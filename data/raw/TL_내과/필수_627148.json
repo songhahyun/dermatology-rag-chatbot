@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627148,
+    "domain": 17,
+    "q_type": 1,
+    "question": "55세 여성이 진행성 췌장암으로 진단받고, 표적 치료제로서의 가능성을 평가하기 위해 임상시험에 참여하기로 하였다. 이 환자는 K-RAS 돌연변이를 가지고 있으며, 연구진은 Farnesyltransferase inhibitors (FTIs)의 치료 효과를 검토 중이다. FTIs의 작용 기전과 관련하여, K-RAS 돌연변이 암세포에서 FTIs가 예상한 만큼의 효능을 나타내지 못하는 이유로 가장 잘 설명되는 기전은 무엇인가?  \n\n1) FTIs는 RAS 단백질의 돌연변이를 직접적으로 억제하지 못한다.  \n2) K-RAS는 Geranylgeranyltransferase I에 의해 보상적으로 활성화될 수 있다.  \n3) FTIs는 암세포에서 빠르게 대사되어 효과를 잃는다.  \n4) FTIs는 암세포의 세포막 투과성을 감소시킨다.  \n5) K-RAS 돌연변이 암세포는 FTIs에 내성을 갖는 것으로 알려져 있다.",
+    "answer": "2) K-RAS는 Geranylgeranyltransferase I에 의해 보상적으로 활성화될 수 있다."
+}

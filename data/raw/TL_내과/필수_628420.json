@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 628420,
+    "domain": 17,
+    "q_type": 1,
+    "question": "45세 남성이 갑작스러운 발열, 오한, 그리고 흉통을 호소하며 응급실에 내원하였습니다. 환자는 최근 잔디 깎기 작업을 수행한 이력이 있으며, 신체 검사에서 폐렴 증상을 보였습니다. 혈액 배양검사 결과, Francisella tularensis가 확인되었습니다. 이 환자의 폐렴 발병 기전과 관련된 F. tularensis의 주요 병독성 인자로 가장 적절한 것은 무엇일까요?  \n1) Hemolysin NlyA  \n2) Type IV pili  \n3) AcpA acid phospholipase C  \n4) IglC protein  \n5) MglA transcription factor",
+    "answer": "4) IglC protein"
+}

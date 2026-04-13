@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 628054,
+    "domain": 17,
+    "q_type": 1,
+    "question": "45세 남성 환자가 면역 결핍으로 인해 반복적인 기회 감염으로 내원하였다. 환자 혈액에서 분리된 바이러스는 120nm 크기의 구형 구조를 가지며, 두 개의 단일 가닥 RNA를 포함하고 있고, 원뿔형 캡시드에 둘러싸여 있다. 이 바이러스는 env 유전자가 gp160 전구체를 코딩하며, 숙주 세포의 효소에 의해 gp120과 gp41로 절단된다. 이 바이러스의 복제 과정에서 필수적인 효소는 무엇인가?  \n1) DNA polymerase  \n2) RNA polymerase  \n3) Reverse transcriptase  \n4) RNA replicase  \n5) DNA ligase",
+    "answer": "3) Reverse transcriptase"
+}

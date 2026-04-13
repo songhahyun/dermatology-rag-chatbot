@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 67432,
+    "domain": 17,
+    "q_type": 1,
+    "question": "35세 여성이 최근 발생한 호흡기 증상으로 내원하였다. 그녀는 최근 여행 기록이 없으며, 다른 특별한 병력은 없다. 활력징후는 안정적이다. 환자의 진단 정보가 전자 건강 기록(eHR)을 통해 자동으로 공중보건 기관에 보고되었다. 이러한 자동 보고 시스템은 무엇인가?  \n1) Data.CDC.gov  \n2) National Syndromic Surveillance Program (NSSP) \n3) Electronic Case Reporting (eCR) \n4) National Notifiable Diseases Surveillance System (NNDSS) \n5) National Electronic Disease Surveillance System Base System (NBS)",
+    "answer": "3) Electronic Case Reporting (eCR)"
+}

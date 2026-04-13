@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 63603,
+    "domain": 17,
+    "q_type": 1,
+    "question": "신세포암의 예후 인자 중 MSKCC(Memorial Sloan Kettering Cancer Center) 모델에서 제시한 독립적인 악성 예후 인자로 해당하지 않는 것은?  \n1) Karnofsky 수행 점수(KPS) < 80%  \n2) 혈청 젖산탈수소효소(LDH) > 정상 상한치의 1.5배  \n3) 혈색소 수치(Hemoglobin) < 정상 하한치  \n4) 혈중 교정 칼슘 수치 > 10mg/dL",
+    "answer": "3) 혈색소 수치(Hemoglobin) < 정상 하한치"
+}

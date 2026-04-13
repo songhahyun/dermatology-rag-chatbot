@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 629255,
+    "domain": 17,
+    "q_type": 1,
+    "question": "52세 여성이 유방암 진단 후 전이 억제와 관련된 상담을 위해 내원하였다. 의사는 환자에게 유방암 전이를 억제하는 데 중요한 역할을 하는 특정 단백질에 대해 설명하였다. 이 단백질은 HIPPO-YAP 경로와 관련이 있으며, 유방암 환자에서 발현이 감소할 경우 예후가 나빠질 수 있다. 이 단백질은 무엇인가?  \n1) 에스트로겐 수용체  \n2) 프로게스테론 수용체  \n3) HER2/neu  \n4) Leukemia inhibitory factor receptor (LIFR) \n5) BRCA1",
+    "answer": "4) Leukemia inhibitory factor receptor (LIFR)"
+}

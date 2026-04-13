@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 624797,
+    "domain": 17,
+    "q_type": 3,
+    "question": "45세 남성이 HIV 감염 진단을 받고 치료를 시작하기 위해 내원하였다. 환자는 최근 체중 감소와 지속적인 피로감을 호소하고 있으며, 면역학적 검사에서 CD4+ T 세포 수가 200/mm³ 이하로 감소한 상태이다. 이 환자에게 초기 항레트로바이러스 치료로 권장되는 약물 조합과 그 기전에 대해 설명하시오.",
+    "answer": "이 환자는 HIV 감염으로 인해 면역 기능이 저하된 상태로, CD4+ T 세포 수가 200/mm³ 이하로 감소하여 즉각적인 항레트로바이러스 치료가 필요하다. 초기 치료로 권장되는 약물 조합은 두 가지 Nucleoside/Nucleotide Reverse Transcriptase Inhibitors (NRTIs)와 하나의 Integrase Strand Transfer Inhibitor (INSTI)로 구성된다. NRTIs는 바이러스의 RNA를 DNA로 역전사하는 효소를 억제하여 바이러스 증식을 막고, INSTI는 바이러스 DNA가 숙주 세포의 DNA에 통합되는 과정을 억제하여 바이러스 복제를 차단한다. 예를 들어, 테노포비르와 엠트리시타빈을 포함한 NRTIs 조합에 돌루테그라비르와 같은 INSTI를 추가하는 방식이 초기 치료로 자주 사용된다."
+}

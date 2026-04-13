@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 619170,
+    "domain": 17,
+    "q_type": 1,
+    "question": "PEEP(Positive End-Expiratory Pressure)을 증가시킬 경우, 폐의 산소화와 환기 상태에 미치는 주요 효과는 무엇인가?  \n1) 심박출량 증가  \n2) 폐의 환기-관류 비율(V/Q mismatch) 개선  \n3) 폐의 복부 쪽 관류 증가  \n4) 호흡 순응도(respiratory compliance) 증가  \n5) 흡입 산소 농도(FiO2) 감소",
+    "answer": "2) 폐의 환기-관류 비율(V/Q mismatch) 개선"
+}

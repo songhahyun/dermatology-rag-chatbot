@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 618005,
+    "domain": 17,
+    "q_type": 1,
+    "question": "52세 여성이 정기 건강 검진에서 LDL 콜레스테롤 수치를 검사받았습니다. 검사 결과, LDL 콜레스테롤 수치가 170mg/dL로 나타났습니다. 이 환자의 LDL 콜레스테롤 수치는 다음 중 어떤 범주에 해당하나요?  \n1) 최적 (Optimal) \n2) 거의 최적 (Near optimal) \n3) 경계선상 높음 (Borderline high) \n4) 높음 (High) \n5) 매우 높음 (Very high)",
+    "answer": "4) 높음 (High)"
+}

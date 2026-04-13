@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 6563,
+    "domain": 17,
+    "q_type": 1,
+    "question": "COVID-19 환자를 대상으로 한 Hammad 2021 연구에서 Remdesivir를 투여받은 그룹과 비투여 그룹 간의 Overall Survival (OS)에 대한 결과는 무엇이었는가?\n\n1) Remdesivir 그룹의 생존율이 더 높았다  \n2) 비투여 그룹의 생존율이 더 높았다  \n3) 두 그룹 간 생존율 차이가 없었다  \n4) 통계적으로 유의미한 차이가 없었다  \n5) Remdesivir 그룹에서 사망률이 더 높았다",
+    "answer": "4) 통계적으로 유의미한 차이가 없었다"
+}

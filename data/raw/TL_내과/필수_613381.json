@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 613381,
+    "domain": 17,
+    "q_type": 1,
+    "question": "45세 남자 환자가 만성 B형 간염으로 진단받고 lamivudine 치료를 시작하였다. 3년 후, 환자는 치료에 반응하지 않고 있으며, 혈액 검사에서 HBV DNA 수치가 증가하고 ALT 수치가 상승하는 소견을 보였다. 이 환자에서 가장 가능성이 높은 lamivudine 내성 바이러스 돌연변이는 무엇인가?\n\n1) rtL180M  \n2) rtL217R  \n3) rtM204V/I  \n4) rtA181T  \n5) rtT184S",
+    "answer": "3) rtM204V/I"
+}

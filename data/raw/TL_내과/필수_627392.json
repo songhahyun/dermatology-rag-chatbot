@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627392,
+    "domain": 17,
+    "q_type": 1,
+    "question": "52세 남성이 심한 호흡곤란과 발열로 응급실에 내원하였다. 환자는 최근 인후통을 앓았으며, 증상이 점차 악화되었다. 혈액 배양 검사에서 Pseudomonas aeruginosa가 분리되었고, ceftazidime에 대한 감수성 시험 결과는 다음과 같았다: 디스크 확산법으로 측정한 저항성 구역의 크기는 16 mm였고, 최소 억제 농도(MIC)는 32 mcg/mL로 나타났다. 이 결과는 ceftazidime에 대한 내성을 시사한다. 이 환자에게 적절한 항생제 치료를 선택할 때, 다음 중 가장 적절한 치료 옵션은 무엇인가?\n\n1) Ceftazidime 단독 요법  \n2) Ceftazidime와 aminoglycoside 병용 요법  \n3) Ceftazidime 용량 증가  \n4) 다른 항생제로 변경  \n5) Ceftazidime와 carbenicillin 병용 요법",
+    "answer": "4) 다른 항생제로 변경"
+}

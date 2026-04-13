@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 616407,
+    "domain": 17,
+    "q_type": 1,
+    "question": "COVID-19로 인한 폐렴 환자의 흉부 CT에서 가장 흔히 관찰되는 소견은 무엇인가?  \n1) 폐경화  \n2) 결절성 병변  \n3) 기포성 병변  \n4) 간질성 음영  \n5) ground-glass opacity",
+    "answer": "5) ground-glass opacity"
+}

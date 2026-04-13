@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 2345,
+    "domain": 17,
+    "q_type": 1,
+    "question": "다발성 골수종 환자에서 혈액 내 free light chain(면역글로불린 경쇄)의 농도가 상승하면 overflow proteinuria가 발생할 수 있습니다. 이 경우, 소변 검사 결과로 가장 적합한 조합은 무엇인가요?\n\n1) 24시간 소변 알부민 120mg - 24시간 소변 단백질 8000mg - 요시험지봉 검사 Protein trace (참고: 비중 1.020) \n2) 24시간 소변 알부민 5500mg - 24시간 소변 단백질 8000mg - 요시험지봉 검사 Protein 4+ (참고: 비중 1.020) \n3) albumin to creatinine ratio 5500 mg/gCr - protein to creatinine ratio 8 g/gCr - 요시험지봉 검사 Protein trace (참고: 비중 1.020) \n4) albumin to creatinine ratio 120 mg/gCr - protein to creatinine ratio 8 g/gCr - 요시험지봉 검사 Protein 4+ (참고: 비중 1.020) \n5) albumin to creatinine ratio 120 mg/gCr - protein to creatinine ratio 8 g/gCr - 요시험지봉 검사 Protein trace (참고: 비중 1.020)",
+    "answer": "1) 24시간 소변 알부민 120mg - 24시간 소변 단백질 8000mg - 요시험지봉 검사 Protein trace (참고: 비중 1.020)"
+}

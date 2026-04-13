@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 66793,
+    "domain": 17,
+    "q_type": 1,
+    "question": "55세 여성이 건강 검진 중 우연히 발견된 담낭 용종으로 내원하였다. 초음파 검사에서 1.2cm 크기의 용종이 관찰되었으며, 추가적인 검사를 통해 용종의 성격을 평가하기로 하였다. 다음 중 담낭 용종의 성격을 평가하는 데 있어 경복부 초음파(TAUS)와 내시경 초음파(EUS)의 진단 정확도에 대한 설명으로 옳은 것은?\n\n1) TAUS는 EUS보다 진단 정확도가 낮아 용종의 성격 평가에 제한적이다.  \n2) EUS는 TAUS보다 진단 정확도가 높아 dysplastic polyps/carcinomas를 더 잘 구별할 수 있다.  \n3) TAUS와 EUS는 true와 pseudo 담낭 용종을 구분하는 데 있어 유사한 진단 정확도를 보인다.  \n4) TAUS는 dysplastic polyps/carcinomas와 adenomas/pseudo polyps를 구분하는 데 있어 EUS보다 정확하다.  \n5) EUS는 TAUS에 비해 dysplastic polyps/carcinomas를 더 잘 구별하지만, pseudo polyps 구분에는 부적절하다.",
+    "answer": "2) EUS는 TAUS보다 진단 정확도가 높아 dysplastic polyps/carcinomas를 더 잘 구별할 수 있다."
+}

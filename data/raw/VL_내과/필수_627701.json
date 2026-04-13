@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627701,
+    "domain": 17,
+    "q_type": 1,
+    "question": "62세 남성이 요로 감염으로 인해 병원에 입원하였다. 검사 결과 Escherichia coli가 원인균으로 확인되었고, gentamicin에 대한 감수성 검사를 시행하였다. Bauer 방법에 따라 gentamicin 10 mcg 디스크를 사용한 검사에서 얻게 된 억제대의 크기는 13 mm였다. CLSI(Clinical and Laboratory Standards Institute) 기준에 따르면, gentamicin 억제대 크기가 13 mm일 경우 중간 감수성(intermediate)으로 분류된다. 이 환자에게 gentamicin을 사용할 경우 가장 적절한 설명은 무엇인가?  \n1) 감수성이 있으므로 gentamicin 단독 요법이 적절하다.  \n2) 저항성이 예상되므로 다른 항생제로 교체해야 한다.  \n3) 중간 감수성으로, 다른 항생제와의 병합이 필요할 수 있다.  \n4) 다른 aminoglycoside로 교체하여야 한다.  \n5) 추가적인 감수성 검사는 필요하지 않다.",
+    "answer": "3) 중간 감수성으로, 다른 항생제와의 병합이 필요할 수 있다."
+}

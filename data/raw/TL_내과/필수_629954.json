@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 629954,
+    "domain": 17,
+    "q_type": 1,
+    "question": "45세 남자가 심한 폐렴으로 인해 중환자실에 입원하였다. 환자는 기계적 환기가 필요한 상태이며, 급성호흡곤란증후군(ARDS) 진단을 받았다. ARDS 환자에서 기계적 환기 설정 시 폐 손상을 최소화하기 위해 가장 적절한 전략은 무엇인가?\n\n1) 높은 일회호흡량(tidal volume) 사용  \n2) 낮은 양압호기말양압(PEEP) 적용  \n3) 고산소분획(FiO2) 유지  \n4) 낮은 일회호흡량(tidal volume) 사용  \n5) 고빈도 진동 환기(high-frequency oscillatory ventilation)",
+    "answer": "4) 낮은 일회호흡량(tidal volume) 사용"
+}

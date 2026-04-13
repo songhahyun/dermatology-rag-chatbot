@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 625689,
+    "domain": 17,
+    "q_type": 3,
+    "question": "55세 남성이 최근 천식 악화로 인해 호흡곤란을 호소하며 병원을 방문하였다. 혈액검사에서 염증 반응 지표가 증가하였고, 천식 악화와 관련된 leukotriene 경로의 활성화가 의심되었다. 이 환자의 천식 악화와 관련된 주요 단백질과 그 단백질의 역할에 대해 설명하시오.",
+    "answer": "이 환자의 천식 악화와 관련된 주요 단백질은 Coactosin-like protein (COTL1)이다. COTL1은 actin과 결합하는 단백질로, 5-lipoxygenase (ALOX5)와 상호작용하여 ALOX5를 안정화시키는 역할을 한다. ALOX5는 arachidonic acid를 대사하여 염증 매개물질인 leukotriene B4 (LTB4)와 기도 수축을 유발하는 LTC4, LTD4, LTE4를 생성하는 효소이다. 이러한 leukotriene의 생성은 염증 반응을 촉진하고 기도 수축을 유발하여 천식 증상을 악화시킬 수 있다."
+}

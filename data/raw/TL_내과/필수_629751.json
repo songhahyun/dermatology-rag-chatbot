@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 629751,
+    "domain": 17,
+    "q_type": 1,
+    "question": "HIV-1 치료 경험이 있는 환자에서 Lopinavir와 Ritonavir 병용 투여 시, 치료 반응을 저해할 수 있는 protease 유전자 변이 조합으로 올바른 것은 무엇인가요?  \n1) L10F/I, K20R, M36I, V82A, I84V  \n2) L24I, L33F, I47V, G48V, I54L  \n3) K20M/N, L33F, M36I, V82C/S, I84V  \n4) L10R, K20N, L24I, I54T/V, V82F  \n5) L10V, K20M, I47V, G48V, I54T",
+    "answer": "3) K20M/N, L33F, M36I, V82C/S, I84V"
+}

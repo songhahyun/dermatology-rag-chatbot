@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 413,
+    "domain": 17,
+    "q_type": 1,
+    "question": "65세 남자가 최근 2주 동안 발열, 무기력, 체중 감소를 호소하며 내원하였다. 병력에서 그는 3개월 전 관상동맥 우회 수술을 받았고, 수술 당시 인공 심장 판막이 삽입되었다. 신체검사에서 심음에 새로운 잡음이 들리고, 발진과 비장 비대가 관찰되었다. 혈액 검사의 결과는 다음과 같다. 이 환자에서 가장 가능한 원인 병원체는 무엇인가?  \n- 백혈구 수치: 15,000/mm³  \n- 적혈구 침강 속도: 50 mm/h  \n- 혈액 배양: 음성 (48시간 후) \n\n1) Streptococcus pneumoniae  \n2) Staphylococcus aureus  \n3) Enterococcus faecalis  \n4) HACEK group  \n5) Candida albicans",
+    "answer": "4) HACEK group"
+}

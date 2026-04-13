@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 626403,
+    "domain": 17,
+    "q_type": 1,
+    "question": "45세 여성 환자가 만성 염증성 질환으로 면역계 기능을 평가받았습니다. 혈액 검사 결과, 호중구에서 생성되는 활성 산소종(reactive oxygen species, ROS)의 생성이 감소된 것으로 나타났습니다. 이 환자의 호중구에서 주로 관여하는 효소는 무엇인가요?\n\n1) Lactoperoxidase (LPO) \n2) Eosinophil peroxidase (EPO) \n3) Myeloperoxidase (MPO) \n4) Thyroid peroxidase (TPO) \n5) Prostaglandin H synthase (PGHS)",
+    "answer": "3) Myeloperoxidase (MPO)"
+}

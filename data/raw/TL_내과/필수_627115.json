@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627115,
+    "domain": 17,
+    "q_type": 1,
+    "question": "52세 남자가 발열과 복통을 호소하며 입원하였다. 혈액 배양 검사에서 Escherichia coli가 검출되었으며, 항생제 감수성 검사 결과 cefotetan에 'Intermediate'로 보고되었다. 이 환자에서 cefotetan 사용에 대해 적절히 고려해야 할 사항은 무엇인가?  \n1) 감수성 검사에서 'Intermediate'로 보고된 경우, 약물의 고용량 투여를 고려할 수 있다.  \n2) cefotetan은 'Intermediate'로 보고된 경우에도 항상 효과적이므로 추가 고려 없이 사용한다.  \n3) cefotetan에 내성이 있는 경우 다른 cephalosporin 계열 항생제로 대체한다.  \n4) cefotetan은 모든 Enterobacteriaceae에 대해 효과적이지 않으므로 다른 항생제를 선택해야 한다.  \n5) 대체 가능한 약제가 없고, 약물이 감염 부위에서 높은 농도로 농축될 가능성이 있는 경우 cefotetan의 고용량 투여를 고려할 수 있다.",
+    "answer": "5) 대체 가능한 약제가 없고, 약물이 감염 부위에서 높은 농도로 농축될 가능성이 있는 경우 cefotetan의 고용량 투여를 고려할 수 있다."
+}

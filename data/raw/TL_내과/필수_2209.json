@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 2209,
+    "domain": 17,
+    "q_type": 1,
+    "question": "76세 여자 환자가 새벽부터 시작된 심와부 동통 및 황달을 주소로 응급실에 내원하였다. 내원 당시 의식은 명료하였고, 혈압 140/90 mmHg, 맥박 140회/분, 호흡 24회/분, 체온 38.6℃였다. 응급실에서 시행한 검사는 다음과 같은 소견을 보였다. 이 환자의 가장 가능성 높은 진단과 우선적으로 시행해야 할 치료는 무엇인가? (정상 범위는 괄호 안에 있음.) \nWBC 21,000/mm3, ALP 295 U/L (53~128), AST 70 U/L (0~40), ALT 45 U/L (0~40), Total bilirubin 1.5 mg/dL (0.2~1.5) , amylase 1,270 U/L (13~100), lipase 6,430 U/L (13~60) \n\n1) 담관염(Acute cholangitis) → 내시경적유두괄약근절개술(EST) \n2) 담낭염(Acute cholecystitis) → 담낭절제술(Cholecystectomy) \n3) 담석성췌장염(Gallstone pancreatitis) → 내시경적유두괄약근절개술(EST) \n4) 급성췌장염(Acute pancreatitis) → 금식 및 수액치료  \n5) 담관염(Acute cholangitis) → 항생제 치료",
+    "answer": "3) 담석성췌장염(Gallstone pancreatitis) → 내시경적유두괄약근절개술(EST)"
+}

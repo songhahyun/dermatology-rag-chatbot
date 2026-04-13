@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 476,
+    "domain": 17,
+    "q_type": 1,
+    "question": "51세 여자가 건강검진에서 간기능검사 이상 소견으로 내원하였다. 환자는 술을 자주 마시지 않으며, 간초음파 검사에서 전반적인 에코 증가 소견이 관찰되었다. 신체계측 결과 키는 160cm, 몸무게는 65kg, 복부둘레는 85cm였다. 혈액검사 결과는 다음과 같다: AST/ALT 64/87, 총콜레스테롤 230mg/dL, HBsAg(-), anti-HBsAg(+), anti-HCV(-), ANA(-). 이 환자에서 적절한 치료는 무엇인가?  \n1) 체중감량  \n2) Entecavir  \n3) Glucocorticoid  \n4) 비타민 C  \n5) Pentoxifylline",
+    "answer": "1) 체중감량"
+}

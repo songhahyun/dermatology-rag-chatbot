@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 62048,
+    "domain": 17,
+    "q_type": 1,
+    "question": "COVID-19 ARDS 환자와 non-COVID-19 ARDS 환자의 PEEP 적용에 대한 차이에 대해 옳은 것은 무엇인가?  \n1) COVID-19 ARDS 환자는 낮은 PEEP에서 더 잘 반응한다.  \n2) non-COVID-19 ARDS 환자는 높은 PEEP에서 더 잘 반응한다.  \n3) COVID-19 ARDS 환자는 최적 PEEP 값(median best PEEP)이 더 높다.  \n4) non-COVID-19 ARDS 환자는 최적 PEEP 값(median best PEEP)이 더 높다.  \n5) 두 환자군 간에 PEEP 적용 차이가 없다.",
+    "answer": "3) COVID-19 ARDS 환자는 최적 PEEP 값(median best PEEP)이 더 높다."
+}

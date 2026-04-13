@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 2187,
+    "domain": 17,
+    "q_type": 3,
+    "question": "Fractional excretion of sodium (FENa)의 공식을 서술하고, 급성신손상(acute kidney injury)에서 FENa 값이 임상적으로 어떤 의미를 가지는지 설명하시오.",
+    "answer": "Fractional excretion of sodium (FENa)의 공식은 다음과 같다:  \nFENa = \\(\\frac{[Na^+]_{urine} \\times [Cr]_{plasma}}{[Na^+]_{plasma} \\times [Cr]_{urine}}\\) × 100 (%).  \n\nFENa 값이 1% 이하인 경우, 이는 신전성 신손상을 시사하며, 신장으로의 혈류 감소로 인해 나트륨 재흡수가 증가한 상태를 의미한다. 반면, FENa 값이 2% 이상인 경우, 이는 신성 신손상을 시사하며, 신장의 재흡수 기능이 손상되어 나트륨 배출이 증가한 상태를 나타낸다."
+}

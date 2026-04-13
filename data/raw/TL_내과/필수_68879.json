@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 68879,
+    "domain": 17,
+    "q_type": 1,
+    "question": "HIV 검사를 받은 환자가 재검사를 위해 3개월 후에 병원을 방문해야 합니다. 환자가 재검사 날짜를 기록할 때, 올바른 날짜 형식은 무엇인가?  \n1) yyyy-mm-dd  \n2) mm-dd-yyyy  \n3) dd-mm-yyyy  \n4) mm-yyyy-dd  \n5) yyyy-dd-mm",
+    "answer": "1) yyyy-mm-dd"
+}

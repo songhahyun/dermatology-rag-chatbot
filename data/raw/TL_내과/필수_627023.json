@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627023,
+    "domain": 17,
+    "q_type": 1,
+    "question": "35세 여성이 하복부 통증과 발열로 병원에 내원하였다. 진단 결과, 복막염이 의심되며, 원인균으로 Escherichia coli와 Bacteroides fragilis가 확인되었다. 항생제 치료를 시작하기 위해 ceftizoxime을 고려하고 있다. 다음 중 ceftizoxime의 사용에 대한 적절한 설명은 무엇인가?  \n1) Ceftizoxime은 Chlamydia trachomatis에 대한 활성을 가지고 있어, 단독 요법으로 충분하다.  \n2) Ceftizoxime은 Pseudomonas aeruginosa에 광범위한 활성을 가지므로, Pseudomonas 감염 시에도 적합하다.  \n3) Ceftizoxime은 Bacteroides fragilis를 포함한 혐기성 균에 대해 효과적이므로, 복막염 치료에 사용할 수 있다.  \n4) Ceftizoxime은 Enterococcus spp.에 대한 활성이 뛰어나며, 이 균이 의심될 때 사용해야 한다.  \n5) Ceftizoxime은 정맥 주사로 사용되며, 중증 감염 치료에 적합하다.",
+    "answer": "3) Ceftizoxime은 Bacteroides fragilis를 포함한 혐기성 균에 대해 효과적이므로, 복막염 치료에 사용할 수 있다."
+}

@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627425,
+    "domain": 17,
+    "q_type": 1,
+    "question": "55세 남성이 폐렴 진단을 받고 Telithromycin을 처방받았다. 환자는 최근에 간염을 앓았으며, 현재 Warfarin을 복용 중이다. Telithromycin 처방과 관련하여 의사가 주의해야 할 사항 중 올바른 것은?  \n1) Telithromycin과 Warfarin의 병용은 출혈 위험을 증가시킬 수 있으므로 INR 모니터링이 필요하다.  \n2) 환자가 간염 병력이 있으므로 Telithromycin은 금기이다.  \n3) Telithromycin 복용 시 식사를 거르면 약효가 감소하므로 반드시 식사와 함께 복용해야 한다.  \n4) 심각한 시력 문제를 예방하기 위해, Telithromycin은 취침 전 복용을 권장한다.  \n5) 환자가 간염 병력이 있어도 Telithromycin 복용은 안전하며, 특별한 조치가 필요 없다.",
+    "answer": "1) Telithromycin과 Warfarin의 병용은 출혈 위험을 증가시킬 수 있으므로 INR 모니터링이 필요하다."
+}

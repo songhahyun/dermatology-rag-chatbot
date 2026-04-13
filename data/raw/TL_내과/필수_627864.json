@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627864,
+    "domain": 17,
+    "q_type": 1,
+    "question": "55세 남성이 폐렴 증상으로 병원에 내원하였다. 검사 결과, Streptococcus pneumoniae가 분리되었고, 페니실린 감수성이 확인되었다. 이 환자에게 ceftibuten을 처방할 수 있는 조건으로 적절한 것은?  \n1) Streptococcus pneumoniae가 페니실린 MIC ≤0.06 µg/mL인 경우  \n2) Streptococcus pneumoniae가 페니실린 MIC >0.06 µg/mL인 경우  \n3) Streptococcus pyogenes가 동반 감염된 경우  \n4) Pseudomonas aeruginosa가 동반 감염된 경우  \n5) 환자가 페니실린 알레르기가 있는 경우",
+    "answer": "1) Streptococcus pneumoniae가 페니실린 MIC ≤0.06 µg/mL인 경우"
+}

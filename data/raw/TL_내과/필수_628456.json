@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 628456,
+    "domain": 17,
+    "q_type": 1,
+    "question": "55세 여성이 발열과 두통을 주소로 내원하였고, 혈액 배양 검사에서 *Neisseria meningitidis*가 분리되었습니다. 환자는 최근에 경구 피임약을 복용 중이며, 페니실린 알레르기는 없습니다. 이 환자의 감염을 치료하기 위해 페니실린 G를 사용하고자 합니다. 병원에서 표준 단일-디스크 감수성 검사를 실시한 결과, 10 U 페니실린 디스크 주위의 저항성 구역이 28mm로 나타났습니다. CLSI(Clinical and Laboratory Standards Institute) 기준에 따르면, 이 결과를 바탕으로 *Neisseria meningitidis*에 대한 페니실린 G의 감수성은 어떻게 해석되어야 할까요?  \n\n1) 감수성  \n2) 중간 감수성  \n3) 저항성  \n4) 불확실  \n5) 재검사 필요",
+    "answer": "1) 감수성"
+}

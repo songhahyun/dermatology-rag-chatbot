@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 615353,
+    "domain": 17,
+    "q_type": 1,
+    "question": "65세 남자가 COVID-19 확진 후 중증 ARDS로 중환자실에 입원하였습니다. 환자의 폐 기계적 특성을 평가하기 위해 static compliance를 측정하였습니다. COVID-19 ARDS 환자에서 static compliance 값은 classical ARDS 환자에 비해 어떻게 나타나는 것이 일반적으로 보고되었나요?  \n1) 유의하게 낮았다  \n2) 유의하게 높았다  \n3) 유의한 차이가 없었다  \n4) 매우 높은 차이를 보였다  \n5) 매우 낮은 차이를 보였다",
+    "answer": "2) 유의하게 높았다"
+}

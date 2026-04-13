@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 2152,
+    "domain": 17,
+    "q_type": 1,
+    "question": "56세 여성 환자가 당뇨병 약제를 복용 중이며, 혈액 검사 결과는 다음과 같다. 이 환자는 고지혈증 치료가 필요하다. 가장 적절한 치료제로 고려해야 할 약물은 무엇인가?  \n혈액 검사 결과:  \n- 공복 혈당: 130 mg/dL  \n- HbA1c: 6.9%  \n- AST/ALT: 55/60 IU/L  \n- eGFR: 65 mL/min/1.73 m²  \n- 총 콜레스테롤: 285 mg/dL  \n- 중성지방 (Triglyceride): 280 mg/dL  \n- HDL-콜레스테롤: 45 mg/dL  \n\n1) Fenofibrate  \n2) Omega-3  \n3) Statin  \n4) Ezetimibe  \n5) Bile acid sequestrant",
+    "answer": "3) Statin"
+}

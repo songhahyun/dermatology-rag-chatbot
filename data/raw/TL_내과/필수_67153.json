@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 67153,
+    "domain": 17,
+    "q_type": 1,
+    "question": "65세 여성이 만성 림프구성 백혈병(CLL) 진단을 받고, 장기 생존 예측을 위한 예후 모델을 고려 중이다. 아래 모델 중 외부 검증 연구에서 가장 높은 판별력을 보인 것으로 알려진 모델은 무엇인가?\n\n1) CLL International Prognostic Index (CLL-IPI) \n2) Barcelona-Brno Score  \n3) MDACC 2007 Index Score  \n4) Rai Stage  \n5) Binet Stage",
+    "answer": "1) CLL International Prognostic Index (CLL-IPI)"
+}

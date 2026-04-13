@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627048,
+    "domain": 17,
+    "q_type": 1,
+    "question": "42세 남성이 발열과 좌측 하복부 통증을 주소로 내원하였다. 신체 검사상 왼쪽 신장 부위에 압통이 있었고, 소변 검사에서 백혈구와 세균이 다량 검출되었다. 세균 배양 검사 결과 Escherichia coli가 검출되었으며, 이 균은 Cephalexin에 감수성이 있는 것으로 확인되었다. 이 환자의 치료에 대해 옳은 설명은 무엇인가?  \n1) Cephalexin은 신장에서 배설되므로 신장 기능이 저하된 환자에서는 용량 조절이 필요하다.  \n2) Cephalexin은 간에서 대사되므로 신장 기능과 무관하게 사용할 수 있다.  \n3) Cephalexin은 그람 양성균에만 효과가 있어 Escherichia coli 감염에는 적절하지 않다.  \n4) Cephalexin은 그람 음성균인 Escherichia coli에 효과적이며, 감수성 검사에서 감수성을 보여 적절한 선택이다.  \n5) Cephalexin은 주로 호흡기 감염에 사용하는 약물로, 요로 감염에는 적합하지 않다.",
+    "answer": "4) Cephalexin은 그람 음성균인 Escherichia coli에 효과적이며, 감수성 검사에서 감수성을 보여 적절한 선택이다."
+}

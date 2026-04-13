@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627606,
+    "domain": 17,
+    "q_type": 1,
+    "question": "만성 C형 간염(유전자형 1형) 치료에서 보세프레비르(VICTRELIS)를 포함한 치료 전략에 대해 SPRINT-2 임상시험 결과를 바탕으로 초기 반응자(HCV-RNA가 치료 시작 8주차에 검출되지 않는 경우)에게 권장되는 치료 방법은 무엇인가?\n\n1) VICTRELIS 1600 mg을 48주간 지속적으로 투여  \n2) 치료 8주차부터 24주차까지 VICTRELIS를 사용한 후, 반응에 따라 치료 지속 결정  \n3) 치료 8주차부터 VICTRELIS를 중단하고, PegIntron + REBETOL만 48주간 지속  \n4) VICTRELIS 1600 mg을 24주간 투여한 후, 간경변 여부에 따라 치료 연장  \n5) VICTRELIS 투여를 4주간 중단한 후, PegIntron + REBETOL만 사용",
+    "answer": "2) 치료 8주차부터 24주차까지 VICTRELIS를 사용한 후, 반응에 따라 치료 지속 결정"
+}

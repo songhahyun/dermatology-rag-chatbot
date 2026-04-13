@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 65404,
+    "domain": 17,
+    "q_type": 1,
+    "question": "65세 남성이 비심장 수술을 앞두고 있습니다. 수술 전 주요 심장 이상 사건(MACE) 발생 위험을 예측하기 위해 가장 유용한 바이오마커 조합은 무엇입니까?  \n1) C-반응성 단백질(CRP)과 BNP  \n2) 코펩틴과 CHADS2 점수  \n3) NT-proBNP와 트로포닌  \n4) D-다이머와 CHA2DS2-VASc 점수  \n5) hs-CRP와 RCRI 점수",
+    "answer": "3) NT-proBNP와 트로포닌"
+}

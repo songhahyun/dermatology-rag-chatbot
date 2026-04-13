@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 68081,
+    "domain": 17,
+    "q_type": 1,
+    "question": "40세 남성이 코로나19로 인해 중증 ARDS(급성호흡곤란증후군) 상태로 ECMO(체외막산소화) 치료가 가능한 병원으로 전원이 필요하다. ECMO 치료를 고려할 수 있는 산소화 상태의 기준은 무엇인가?\n\n1) P/F ratio 150mmHg 이하  \n2) P/F ratio 200mmHg 이하  \n3) P/F ratio 100mmHg 이하  \n4) FiO2 0.5 이상  \n5) PaO2 60mmHg 이하",
+    "answer": "1) P/F ratio 150mmHg 이하"
+}

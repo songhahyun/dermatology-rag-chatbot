@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627182,
+    "domain": 17,
+    "q_type": 1,
+    "question": "48세 남성이 만성 HIV 감염으로 인해 saquinavir(상품명: INVIRASE)와 ritonavir 병용 치료를 받고 있다. 환자는 최근 말라리아 예방을 위해 클로로퀸 처방을 받았다. 이 환자의 약물 병용 시 주의해야 할 주요 이유는 무엇인가?  \n1) 클로로퀸이 CYP3A를 강하게 유도하여 saquinavir의 효과를 감소시킬 수 있기 때문이다.  \n2) saquinavir/ritonavir가 클로로퀸의 대사를 억제하여 QT 간격 연장을 유발할 수 있기 때문이다.  \n3) 클로로퀸과 ritonavir의 병용이 P-glycoprotein의 기질로서 상호작용하여 클로로퀸의 농도를 감소시킬 수 있기 때문이다.  \n4) 클로로퀸이 saquinavir의 혈장 농도를 증가시켜 신독성을 유발할 수 있기 때문이다.  \n5) saquinavir/ritonavir와 클로로퀸의 병용이 간독성을 증가시킬 수 있기 때문이다.",
+    "answer": "2) saquinavir/ritonavir가 클로로퀸의 대사를 억제하여 QT 간격 연장을 유발할 수 있기 때문이다."
+}

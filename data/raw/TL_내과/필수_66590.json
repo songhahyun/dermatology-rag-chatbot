@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 66590,
+    "domain": 17,
+    "q_type": 1,
+    "question": "COVID-19 환자에게 특정 치료(예: Specific IVIG)를 시행한 후, 28일째 사망률에 대한 효과를 평가하기 위해 사용되는 메타분석 도구는 무엇인가?  \n1) RevMan (Review Manager) \n2) SPSS  \n3) R 프로그램  \n4) Excel  \n5) Stata",
+    "answer": "1) RevMan (Review Manager)"
+}

@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627084,
+    "domain": 17,
+    "q_type": 1,
+    "question": "35세 남성이 HIV 검사 후 병원에 방문하였다. 초기 HIV 항원/항체 면역분석에서 반응성이 확인되었고, FDA 승인된 Geenius™ HIV 1/2 보충 분석에서 HIV-2 indeterminate 결과가 나왔다. 이 환자에서 적절한 다음 단계는 무엇인가?  \n1) 동일한 시료로 Geenius 테스트를 반복하고, 결과가 HIV 음성이라면 최종 결과로 보고 HIV-1 NAT를 실시한다.  \n2) 동일한 시료로 Geenius 테스트를 반복하고, 결과가 다시 HIV-2 indeterminate라면 새로운 시료로 HIV-1 NAT를 실시한다.  \n3) HIV-1 NAT를 실시하고, HIV-1 RNA가 검출되면 HIV-1 감염을 진단한다.  \n4) 동일한 시료로 Geenius 테스트를 반복하고, 결과가 HIV-2 양성이라면 HIV-2 감염으로 진단한다.  \n5) HIV-1 NAT를 실시하고, HIV-1 RNA가 검출되지 않으면 HIV-2 감염 가능성을 배제한다.",
+    "answer": "3) HIV-1 NAT를 실시하고, HIV-1 RNA가 검출되면 HIV-1 감염을 진단한다."
+}

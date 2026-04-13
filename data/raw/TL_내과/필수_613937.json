@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 613937,
+    "domain": 17,
+    "q_type": 1,
+    "question": "65세 남성이 코로나19 치료제로 Favipiravir를 복용 중이다. Favipiravir의 주된 작용 기전은 무엇인가?\n\n1) 바이러스 단백질 합성 억제  \n2) RNA 의존적 RNA 중합효소 억제  \n3) 바이러스 세포 침투 억제  \n4) 바이러스 DNA 복제 억제  \n5) 바이러스 외피 파괴",
+    "answer": "2) RNA 의존적 RNA 중합효소 억제"
+}

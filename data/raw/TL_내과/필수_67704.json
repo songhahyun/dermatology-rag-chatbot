@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 67704,
+    "domain": 17,
+    "q_type": 1,
+    "question": "중증 COVID-19 ARDS 환자에서 PEEP(Positive End-Expiratory Pressure) 증가가 폐에 미치는 주요 영향은 무엇인가?  \n1) 비환기 폐 용적 증가  \n2) 정상 환기 폐 용적 감소  \n3) 과환기 폐 용적 증가  \n4) 호흡기계 순응도 증가  \n5) FiO2 = 1.0에서 PaO2 증가",
+    "answer": "3) 과환기 폐 용적 증가"
+}

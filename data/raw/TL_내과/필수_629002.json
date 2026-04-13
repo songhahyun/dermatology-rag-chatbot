@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 629002,
+    "domain": 17,
+    "q_type": 1,
+    "question": "58세 남성이 급성 심근경색(STEMI)으로 관상동맥 중재술(PCI)을 받은 후 TIMI Frame Count(TFC)가 34 프레임으로 측정되었습니다. 이 환자의 Corrected TIMI Frame Count(CTFC)를 계산하기 위해 LAD에 대해 적용해야 할 적절한 계산 방법은 무엇인가요?  \n1) LAD에 대해 TFC에 1.7을 곱한다.  \n2) LAD에 대해 TFC에 1.7을 나눈다.  \n3) LAD에 대해 TFC에 1.6을 곱한다.  \n4) LAD에 대해 TFC에 1.6을 나눈다.  \n5) LAD에 대해 TFC에 1.5를 나눈다.",
+    "answer": "2) LAD에 대해 TFC에 1.7을 나눈다."
+}

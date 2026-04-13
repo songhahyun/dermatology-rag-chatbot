@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 616468,
+    "domain": 17,
+    "q_type": 1,
+    "question": "HIV 자가 검진 등록 양식에서 'Time Since Last HIV Test' 항목은 무엇을 기록하는가?  \n1) 마지막 HIV 검진 결과  \n2) 마지막 HIV 검진 이후 경과 시간  \n3) 마지막 HIV 검진을 받은 장소  \n4) 마지막 HIV 검진 키트의 유효기간",
+    "answer": "2) 마지막 HIV 검진 이후 경과 시간"
+}

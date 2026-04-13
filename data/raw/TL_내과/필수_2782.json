@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 2782,
+    "domain": 17,
+    "q_type": 1,
+    "question": "다음 중 피부근염(Dermatomyositis) 환자에서 간질성 폐질환(ILD)의 위험을 증가시키는 항체는 무엇인가?  \n1) Mi-2 항체  \n2) 신호 인식 입자(Signal-recognition particle, SRP) 항체  \n3) 히스티딜-tRNA 합성효소(Histidyl-tRNA synthetase, Jo-1) 항체  \n4) 전사 중개 인자 1-감마(Transcriptional intermediary factor 1-gamma, TIF1-γ) 항체  \n5) MDA5 항체",
+    "answer": "5) MDA5 항체"
+}

@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 64674,
+    "domain": 17,
+    "q_type": 1,
+    "question": "65세 남성이 간경변증 진단을 받고 병원에 내원하였다. 의사는 환자의 3개월 내 사망 위험을 평가하기 위해 MELD 점수를 계산하려고 한다. MELD 점수를 계산하기 위해 필요한 변수로 올바르게 짝지어진 것은 무엇인가?\n\n1) 혈압, 혈당, Cr  \n2) Hb, Na, INR  \n3) Bilirubin, Cr, INR  \n4) AST, ALT, Bilirubin  \n5) ALP, GGT, Na",
+    "answer": "3) Bilirubin, Cr, INR"
+}

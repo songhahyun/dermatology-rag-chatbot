@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 629020,
+    "domain": 17,
+    "q_type": 1,
+    "question": "45세 남성이 Schistosoma mansoni 감염으로 진단받고 praziquantel 치료를 시작하였다. 이 환자는 중등도 간기능 장애(Child-Pugh class B)가 있다. 간기능 장애가 있는 환자에서 praziquantel의 약동학적 변화로 가장 적절한 것은 무엇인가?  \n1) 반감기 증가, Cmax 증가, AUC 증가  \n2) 반감기 감소, Cmax 감소, AUC 감소  \n3) 반감기 변화 없음, Cmax 변화 없음, AUC 변화 없음  \n4) 반감기 증가, Cmax 감소, AUC 증가  \n5) 반감기 감소, Cmax 증가, AUC 감소",
+    "answer": "1) 반감기 증가, Cmax 증가, AUC 증가"
+}

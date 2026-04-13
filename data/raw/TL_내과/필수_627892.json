@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627892,
+    "domain": 17,
+    "q_type": 1,
+    "question": "52세 남자 환자가 최근 인후염으로 진단받고 치료를 받던 중 항생제 관련 위막성 대장염이 발생하여 병원에 내원하였다. 환자는 페니실린에 심한 알레르기가 있으며, 세균 배양 검사 결과 Streptococcus pneumoniae가 분리되었고, 이는 lincomycin에 민감한 것으로 확인되었다. 의사가 lincomycin을 선택할 때 가장 우선적으로 고려해야 할 요소는 무엇인가?  \n1) 환자의 페니실린 알레르기 여부  \n2) 대체 가능한 덜 독성이 있는 항생제의 존재 여부  \n3) 환자의 최근 항생제 사용 이력  \n4) Streptococcus pneumoniae의 내성 패턴  \n5) 환자의 신장 기능 상태",
+    "answer": "4) Streptococcus pneumoniae의 내성 패턴"
+}

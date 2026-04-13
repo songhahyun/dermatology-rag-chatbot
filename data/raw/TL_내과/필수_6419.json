@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 6419,
+    "domain": 17,
+    "q_type": 1,
+    "question": "55세 남자가 건강검진 중 대장내시경 검사에서 용종이 발견되었다. 의사는 용종 제거 후 추적 검사를 통해 대장암 발생 위험을 줄일 수 있다고 설명했다. 환자가 위험 감소에 대한 설명을 이해하기 어려워할 때, 환자에게 가장 이해하기 쉬운 방식으로 위험 감소를 설명하는 방법은 무엇인가?\n\n1) 상대 위험 감소 (Relative Risk Reduction, RRR) \n2) 절대 위험 감소 (Absolute Risk Reduction, ARR) \n3) 자연 빈도 (Natural Frequencies) \n4) 치료 필요 수 (Number Needed to Treat, NNT) \n5) 백분율 (Percentage)",
+    "answer": "3) 자연 빈도 (Natural Frequencies)"
+}

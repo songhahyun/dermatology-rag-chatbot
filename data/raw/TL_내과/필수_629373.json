@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 629373,
+    "domain": 17,
+    "q_type": 1,
+    "question": "58세 남성이 갑작스러운 흉통으로 응급실에 내원하였다. 혈압은 85/60 mmHg로 측정되었고, 심전도 검사 결과 ST 분절 하강이 관찰되었다. 환자의 평균 동맥압(MAP)을 계산하기 위해 가장 적절한 공식은 무엇인가? 중앙정맥압(CVP)을 무시할 수 있다고 가정한다.  \n1) MAP = (SBP + 2*DBP) / 3  \n2) MAP = (SBP - DBP) / 3 + DBP  \n3) MAP = (SBP + DBP) / 2  \n4) MAP = CO x SVR  \n5) MAP = (SBP - DBP) / 2 + DBP",
+    "answer": "1) MAP = (SBP + 2*DBP) / 3"
+}

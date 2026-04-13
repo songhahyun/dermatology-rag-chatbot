@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 627016,
+    "domain": 17,
+    "q_type": 1,
+    "question": "28세 여성이 경구 피임약(Estradiol valerate와 dienogest)을 복용 중이며, 최근 간질 발작으로 인해 carbamazepine을 처방받았다. 이 환자에서 예상되는 약물 상호작용과 적절한 조치는 무엇인가?  \n1) Carbamazepine이 CYP3A4 유도제로 작용하여 Estradiol valerate와 dienogest의 대사가 증가하여 피임 효과가 감소할 수 있으므로 비호르몬 피임법을 추가로 사용해야 한다.  \n2) Carbamazepine이 CYP3A4 억제제로 작용하여 Estradiol valerate와 dienogest의 대사가 감소하여 부작용의 위험이 증가한다.  \n3) Estradiol valerate와 dienogest가 carbamazepine의 대사를 억제하여 간질 발작의 위험이 증가할 수 있으므로 carbamazepine의 용량을 줄여야 한다.  \n4) Estradiol valerate와 dienogest의 혈중 농도가 증가하여 피임 효과가 강화되므로 주의가 필요하다.  \n5) 약물 상호작용은 없으며, 두 약물의 병용은 안전하다.",
+    "answer": "1) Carbamazepine이 CYP3A4 유도제로 작용하여 Estradiol valerate와 dienogest의 대사가 증가하여 피임 효과가 감소할 수 있으므로 비호르몬 피임법을 추가로 사용해야 한다."
+}

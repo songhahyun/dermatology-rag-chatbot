@@ -1,0 +1,7 @@
+﻿{
+    "qa_id": 64878,
+    "domain": 17,
+    "q_type": 1,
+    "question": "Favipiravir 사용이 병원 퇴원 비율에 미치는 영향을 평가한 연구에서, 위험비(Hazard Ratio)가 1.00 [0.82, 1.23]로 보고되었습니다. 이 결과는 무엇을 의미하는가?  \n1) Favipiravir 사용이 병원 퇴원 비율에 유의미한 영향을 미친다.  \n2) Favipiravir 사용이 병원 퇴원 비율에 유의미한 영향을 미치지 않는다.  \n3) Favipiravir 사용이 병원 퇴원 비율을 감소시킨다.  \n4) Favipiravir 사용이 병원 퇴원 비율을 증가시킨다.  \n5) Favipiravir 사용이 병원 퇴원 비율에 대한 데이터가 부족하다.",
+    "answer": "2) Favipiravir 사용이 병원 퇴원 비율에 유의미한 영향을 미치지 않는다."
+}
