@@ -1,5 +1,5 @@
 #Python cache
-/pycache/
+pycache/
 *.pyc
 *.pyo
 *.pyd
