@@ -8,6 +8,7 @@ from typing import Any
 
 from medical_extractor import MedicalEntityExtractor
 from ollama_client import OllamaClient
+from tqdm import tqdm
 
 
 def _to_document(record: dict[str, Any], extracted: dict[str, list[str]]) -> dict[str, Any]:
@@ -52,7 +53,15 @@ def process_file(
     documents: list[dict[str, Any]] = []
     total = len(data) if max_records is None else min(len(data), max_records)
 
-    for idx, record in enumerate(data[:total], start=1):
+    for idx, record in enumerate(
+        tqdm(
+            data[:total],
+            total=total,
+            desc=f"Processing {input_path.name}",
+            unit="req",
+        ),
+        start=1,
+    ):
         question = str(record.get("question", ""))
         answer = str(record.get("answer", ""))
 
