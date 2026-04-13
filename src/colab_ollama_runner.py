@@ -102,6 +102,7 @@ def run_preprocess(
     num_ctx: int,
     max_records: int | None,
     inputs: list[str] | None,
+    checkpoint_every: int,
 ) -> None:
     cmd = [
         sys.executable,
@@ -119,6 +120,7 @@ def run_preprocess(
     ]
     if max_records is not None:
         cmd.extend(["--max-records", str(max_records)])
+    cmd.extend(["--checkpoint-every", str(checkpoint_every)])
     if inputs:
         cmd.extend(["--inputs", *inputs])
 
@@ -150,6 +152,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--timeout-seconds", type=int, default=600, help="요청 타임아웃(초)")
     parser.add_argument("--num-ctx", type=int, default=8192, help="컨텍스트 길이")
     parser.add_argument("--max-records", type=int, default=None, help="샘플 처리 개수 제한")
+    parser.add_argument("--checkpoint-every", type=int, default=50, help="중간 저장 주기")
     parser.add_argument(
         "--inputs",
         nargs="+",
@@ -190,6 +193,7 @@ def main() -> None:
         num_ctx=args.num_ctx,
         max_records=args.max_records,
         inputs=args.inputs,
+        checkpoint_every=args.checkpoint_every,
     )
 
 
