@@ -36,3 +36,7 @@ Thumbs.db
 
 #notebook cache
 .ipynb_checkpoints/
+
+#vectordb
+chromadb/
+data/processed/chroma_db
