@@ -1,8 +1,0 @@
-﻿{
-    "c_id": "3541_1",
-    "domain": 2,
-    "source": 1,
-    "source_spec": "KJG",
-    "creation_year": "2003",
-    "content": "1. Peroxisome proliferator-activated receptor (PPAR)는 핵 수용체군에 속하며, PPAR-α, PPAR-β, PPAR-γ의 세 가지 종류가 존재합니다. 이 중 PPAR-γ는 주로 지방세포에서 발현되며, 지방세포의 분화, 지방산 대사, 인슐린 감수성 조절에 중요한 역할을 합니다. 2. PPAR-γ는 retinoid X receptor와 이형체를 형성하여 표적 유전자의 촉진염기서열에 위치한 peroxisome proliferator response elements라는 특이 반응요소를 인지하고, 이를 통해 표적 유전자의 발현을 조절합니다. 3. PPAR-γ의 강력한 내인성 리간드로는 prostaglandin D2의 대사물인 15-deoxy-Δ12,14-prostaglandin J2 (15d-PGJ2)가 있으며, 합성 리간드로는 thiazolidinedione 계열의 약물인 troglitazone, pioglitazone, ciglitazone 등이 있습니다. 4. PPAR-γ는 지방세포뿐만 아니라 지방육종, 유방암, 대장암 세포에서도 발현되며, PPAR-γ 리간드로 자극 시 악성 세포의 성장 억제와 분화 유도가 관찰됩니다. 5. Fas(APO-1, CD95)는 세포 표면에 존재하는 수용체 단백질로, 세포자멸사(apoptosis)를 유도합니다. Fas는 정상 대장 상피세포와 대장암 세포에서도 발현되며, caspase 경로를 통해 세포자멸사를 유발합니다. 6. 본 연구는 대장암 세포주 HT-29에서 PPAR-γ 리간드가 Fas 매개 세포자멸사에 미치는 영향을 조사하였습니다. 이를 위해 HT-29 세포를 PPAR-γ 리간드(15d-PGJ2, ciglitazone)와 agonistic anti-Fas 항체(CH11)로 각각 또는 동시에 자극하였습니다. 7. 실험 결과, PPAR-γ 리간드 단독으로는 세포자멸사가 유의미하게 유발되지 않았으나, Fas 리간드(CH11)와 동시에 자극했을 때 세포자멸사가 유의미하게 증가하였습니다. 8. Western blot 분석 결과, PPAR-γ 리간드와 Fas 리간드 동시 자극 시 caspase-3의 활성화가 증가하였으나, caspase-8의 활성화는 관찰되지 않았습니다. 이는 PPAR-γ 리간드가 Fas 매개 세포자멸사에서 caspase-8을 거치지 않고 caspase-3의 활성화를 강화시키는 경로를 통해 작용함을 시사합니다. 9. 세포자멸사는 외부 경로(죽음 수용체를 통한 경로)와 내부 경로(미토콘드리아를 통한 경로)로 나뉘며, 두 경로 모두 caspase 활성화를 통해 세포자멸사를 유도합니다. 본 연구 결과는 PPAR-γ 리간드가 내부 경로를 통해 세포자멸사를 증가시킬 가능성을 제시합니다. 10. PPAR-γ는 대장암, 유방암, 전립선암 등 다양한 암에서 발현되며, PPAR-γ 리간드는 암세포의 성장 억제와 세포자멸사를 유도할 수 있습니다. 그러나 PPAR-γ 리간드 단독으로는 대장암 세포주에서 충분한 세포자멸사를 유발하지 못하며, 특정 자극이나 유전적 배경에 따라 그 효과가 달라질 수 있습니다. 11. 따라서 PPAR-γ 리간드가 대장암의 예방적 또는 치료적 약제로 사용될 수 있는지에 대한 추가 연구가 필요합니다."
-}
